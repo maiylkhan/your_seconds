@@ -3,7 +3,7 @@
 int main(void){
     char ch;
     int n_char=0;
-    printf("Enter the text: \n");
+    printf("Enter the text (# to end the process): \n");
     while((ch=getchar())!='#'){
         printf("  char-code : %c-%d", ch, ch);
         n_char++;
